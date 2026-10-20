@@ -1,4 +1,4 @@
-"""One-shot live check. Run once with your key before publishing:
+"""One-shot live check. Run once with your key.
     export ANTHROPIC_API_KEY=your_key
     python smoke_test.py
 Makes 3 classifier calls + 3 specialist calls (small max_tokens use, a few cents at most).
