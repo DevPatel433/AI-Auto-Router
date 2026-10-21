@@ -1,0 +1,10 @@
+{
+  "classifier_model": "claude-haiku-5-5",
+  "default_category": "research",
+  "min_confidence": 0.5,
+  "routes": {
+    "coding":   {"label": "Model A - code generation",       "model": "claude-sonnet-5-5"},
+    "research": {"label": "Model B - information retrieval", "model": "claude-opus-5-5"},
+    "writing":  {"label": "Model C - creative writing",      "model": "claude-haiku-5-5"}
+  }
+}
